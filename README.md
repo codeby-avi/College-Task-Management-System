@@ -6,8 +6,8 @@ A comprehensive **role-based task management system** designed for college admin
 
 ## 📌 Table of Contents
 
-- [Key Feature](key-features)
-- [Core Functionalities](core-functionalities)
+- [Key Feature](#key-features)
+- [Core Functionalities](#core-functionalities)
 - [Demo](#-demo)
 - [Project Structure](#-project-structure)
 - [Technologies Stack](#-technologies-stack)
@@ -18,7 +18,7 @@ A comprehensive **role-based task management system** designed for college admin
 - [Dashboard Preview](#-dashboard-preview)
 - [Deployment](#-deployment)
 - [Future Enhancements](#-future-enhancements)
-- [Contributing](contributing)
+- [Contributing](#contributing)
 - [Feedback & Support](#-feedback--support)
 - [Acknowledgments](#-acknowledgments)
 - [References](#-references)
