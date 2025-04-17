@@ -1,0 +1,365 @@
+*
+{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    /* opacity: 1; Firefox */
+    opacity: 1;
+    font-weight: 600;
+  }
+
+body
+{
+    height: 100%;
+}
+                                                                /* NAVBAR */
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #9b15ef;
+    align-items: center;
+}
+.logout_button
+{
+    margin-right: 20px;
+    font-size: 25px;
+}
+nav h1 
+{
+    color: white;
+    line-height: 80px;
+    margin-left: 10px;
+    font-size: 2rem;
+}
+nav div 
+{
+    background-color: cornsilk;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    width: 100px;
+}
+
+
+
+                                                    /* WHITEBAR */
+
+.whiteBar
+{
+    height: 10px;
+    background-color: white;
+}
+
+
+                                                    /* MAINWINDOW */
+
+
+.mainWindow
+{
+    display: flex;
+    height: calc(100vh - 90px);
+}
+
+
+                                                    /* SIDEPANEL */
+.sidePanel
+{
+    width: 25%;
+    /* height: 100%; */
+    background-color: #9b15ef;
+}
+
+.firstPanelMenu
+{
+    margin-top: 30px;
+}
+.panelMenu
+{
+    color: white;
+    background-color: #9b15ef;
+    height: 50px;
+    border-bottom: 4px solid #d2b5fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panelMenu h2 
+{
+    font-size: 1.2rem;
+}
+
+
+
+
+                                 /* BORDER BETWEEN SIDEPANEL AND RIGHT WINDOW */
+.border
+{
+    width: 0.7%;
+}
+
+                                                /* RIGHT WINDOW */
+.rightWindow
+{
+    width: 74.3%;
+    height: 100%;
+    background-color: white;
+}
+
+                            /* FOR USER PROFILE INCLUDING PROFILE PHOTO AND DETAILS*/
+                                                   
+.profile
+{
+    width: 100%;
+    height: 100%;
+    background-color: #9b15ef;
+    padding-top: 60px;
+    display: none;
+}
+
+
+                                                    /* FOR PROFILE PHOTO  */
+.profilePicContainer
+{
+    height: 150px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+                                                     /* FOR USER INFO  */
+.userInfo
+{
+    padding-top: 30px;
+    height: calc(607px - 210px);
+    background-color: white;
+}
+.userDetails 
+{
+    width: 100%;
+    /* background-color: blue; */
+}
+.userInfo h1 
+{
+    font-size: 1.5rem;
+    margin: 30px;
+}
+
+
+
+                                                    /* FOR ADD TASK  */
+
+.taskInput h2
+{
+    display: inline-block;
+}
+.addTask
+{
+    padding-top: 60px;
+     height: 100%;
+    width: 100%;
+    display: none;
+    background-color: #d2b5fd;
+}
+.taskInput
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    margin: 25px 0px;
+}
+.taskDesc textarea
+{
+    margin-left: 70px;
+    /* width: 300px;
+    height: 100px; */
+}
+.taskTitle input
+{
+    margin-left: 141px;
+    width: 300px;
+}
+.taskStartDate input
+{
+    margin-left: 79px;
+}
+.taskDueDate input
+{
+    margin-left: 91px;
+}
+#select
+{
+    margin-left: 89px;
+}
+.submitButton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.submitButton input 
+{
+    color: white;
+    height: 50px;
+    width: 110px;
+    border-radius: 55px;
+    background-color: rgb(155 21 239); 
+    
+}
+
+
+.allTasks 
+{
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    justify-content: center; */
+}
+/* table, th, td ,tr
+{
+    border:0.5px solid black;
+} */
+table
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+tr:nth-child(odd) {background-color: #d2b5fd;}
+tbody
+{
+    width: 100%;
+}
+th
+{
+    color: white;
+    width: 140px;
+    font-size: 1rem;
+}
+tr
+{
+    height: 50px;
+}
+.taskDescription
+{
+    width: 430px;
+}
+.descHead
+{
+    width:430px;
+}
+td
+{
+    text-align: center;
+}
+
+input
+{
+    border: 1px solid rgb(155 21 239);
+}
+
+                                    /* CHECK STATUS */
+
+.checkStatus
+ {
+    width: 100%;
+    /* height: 100%; */
+    background-color: rgb(155 21 239); 
+}     
+
+.pop
+{
+    height: 220px;
+    width: 800px;
+    position: absolute;
+    background-color: black;
+    z-index: 5;
+    opacity: 0.6;
+    /* left: 20%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    /* display: flex; */
+    
+}
+.inputTaskInfo
+{
+    height: 30px;
+    width: 250px;
+    background-color: rgb(155 21 239);
+    opacity: 0.8;
+    margin-left: 272px;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+
+}
+.inputTaskInfo
+{
+    height: 30px;
+    width: 250px;
+    background-color: rgb(155 21 239);
+    /* opacity: 0.8; */
+    margin-left: 272px;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+
+}
+.updateStatusSubmit
+{
+    display: block;
+    margin-left: 350px;
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+}
+#checkStatusSubmit
+{
+    display: block;
+    margin-left: 350px;
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+}
+
+
+
+.updatePop
+{
+    height: 300px;
+    width: 800px;
+    position: absolute;
+    background-color: black;
+    z-index: 5;
+    /* left: 20%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    opacity: 0.6;
+    display: none;
+}
